@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Servlet Filter implementation class EncodingFilter
  */
-@WebFilter("*nhn")
+@WebFilter("*.nhn")
 public class EncodingFilter implements Filter {
 
     /**
